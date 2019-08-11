@@ -1,0 +1,4 @@
+score 160
+wave 5
+accuracy 100
+wpm 88
