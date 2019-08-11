@@ -40,12 +40,12 @@ def initializeGlobals():
     text_wave_style = "ROBOTO", "22", "bold"
     x_ea_c = 350
     y_ea_c = 295
-    image_earth_path = "images/static/image_earth.png"
-    image_space_background_path = "image/static/image_space_background.png"
-    image_turret_path = "images/static/image_turret.png"
-    image_sun_path = "images/static/image_sun.png"
-    image_laser_path = "images/dynamic/image_laser_2.png"
-    image_heart_path = "images/static/image_heart.png"
+    image_earth_path = "images/static/image_earth.gif"
+    image_space_background_path = "images/static/image_space_background.gif"
+    image_turret_path = "images/static/image_turret.gif"
+    image_sun_path = "images/static/image_sun.gif"
+    image_laser_path = "images/dynamic/image_laser_2.gif"
+    image_heart_path = "images/static/image_heart.gif"
     user_score = 0
     user_lives = 3
     game_wave = 1
@@ -208,7 +208,7 @@ def  spawnAlien():
     # Pick a random location from the ALIEN_SPAWN_LOCS dict
     random_pair = random.choice(list(ALIEN_SPAWN_LOCS.items()))
     spawn_coords = random_pair[1]
-    image_alien_path = "images/dynamic/aliens/{}.png".format(random.randint(1, 4))
+    image_alien_path = "images/dynamic/aliens/{}.gif".format(random.randint(1, 4))
    # define image_alien
     image_alien = tk.PhotoImage(file= image_alien_path)
     # Make a reference to image_alien in order to prevent garbage collection
