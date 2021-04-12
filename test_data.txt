@@ -1,4 +1,0 @@
-score:100
-wave:100
-accuracy:100
-wpm:100
